@@ -1,0 +1,43 @@
+    html {
+        font-family: "Serif", Georgia;
+        text-align: left;
+        background-image: url(imagens/flores.jpg);
+        min-height: 50vh;
+    }
+    /*destaca o texto selecionado em rosa*/
+    ::selection {
+        background: pink;
+    }
+
+    .header {
+        background-color: rgb(238, 128, 188);
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+      
+    .nav ul, li {
+        display: inline;
+        text-align: center;
+        padding: 10px 110px;
+        margin-bottom: 7px;
+    }
+    .nav ul, li a:hover{
+        background-color: #df82cf;
+        color: white;
+    }
+      
+    div.formacao {
+        width: auto;
+        height: auto;
+        border: solid 1px;
+        border-radius: 15px;
+    }
+
+    .footer {
+        background-color: rgb(238, 128, 188);
+        color: #ffffff;
+        text-align: right;
+        font-size: 12px;
+        padding: 15px;
+    }

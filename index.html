@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu CV</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="l5">Alessa dos Santos</h1>
+    </div>
+      
+    <nav>
+        <ul>
+            <li><a href="#l1">Sobre mim</a></li>
+            <li><a href="#l2">Formação</a></li>
+            <li><a href="#l3">Portfólio</a></li>
+            <li><a href="#l4">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="section">
+        <h2 id="l1">Sobre mim</h2>
+          <p>Sou estudante na área de tecnologia, atualmente estagiando em suporte a clientes internos, com foco na emissão de NF-e utilizando o SAP. Meu dia a dia é marcado por novos desafios e aprendizados, o que está perfeitamente alinhado com meu desejo de desenvolvimento pessoal e profissional. Gosto de ouvir podcasts e ler livros voltados ao autodesenvolvimento.
+          </p>
+          <a href="#l5">Topo</a>
+    </div>
+    <br>
+    <div class="section">
+        <h2 id="l2">Formação</h2>
+        <div class="formacao">
+            <table>
+                <tr>
+                    <th><label for="instituicao">Instituição:</label></th>
+                    <td><label for="uninter">Uninter</label></td>
+                </tr>
+                <tr> 
+                    <th><label for="curso">Curso:</label></th>
+                    <td><label for="tecnólogo em análise e desenvolvimento de sitemas">Tecnólogo em Análise e Desenvolvimento de Sitemas</label></td>
+                </tr>
+                <tr> 
+                    <th><label for="periodo">Período:</label></th>
+                    <td><label for="junho de 2022 até atualmente">Junho/2022 - atual</label></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="formacao">
+            <table>
+                <tr>
+                    <th><label for="instituicao">Instituição:</label></th>
+                    <td><label for="IFPR">IFPR</label></td>
+                </tr>
+                <tr> 
+                    <th><label for="curso">Curso:</label></th>
+                    <td><label for="tecnico em eletronica">Técnico em Eletrôncica</label></td>
+                </tr>
+                <tr> 
+                    <th><label for="periodo">Período:</label></th>
+                    <td><label for="2018 à 2021">2018 - 2021</label></td>
+                </tr>
+            </table>
+        </div>
+        <a href="#l5">Topo</a>
+    </div>
+    <br>
+    <div class="section">
+        <h2 id="l3">Portfólio</h2>
+        <p>Meu portfólio ainda está em desenvolvimento e será atualizado em breve</p>
+        <a href="#l5">Topo</a>
+    </div>
+    <br>
+    <div class="section">
+        <h2 id="l4">Contato</h2>
+        <p>Entre em contato ou deixe sua opinião sobre meu site no formulário abaixo:</p>
+        <form action="" method=""><!--arquivo para envio (.php) | método de envio (e-mail)-->
+            <table><!--tabela criada para organização do form -->
+                <tr>
+                    <th><label for="tipodeformulario">Gostaria de:</label></th><!--o que contém no for será lido em audiodescrição-->
+                    <td>
+                        <input type="radio" name="formulario" value="contato">Entrar em contato
+                        <input type="radio" name="formulario" value="opiniao" checked>Deixar opinião
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="nome">Nome:</label></th>
+                    <td><input type="text" name="nome" id="nome"></td>
+                </tr>
+                <tr>
+                    <th><label for="email">E-mail:</label></th>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <th><label for="msg">Digite sua Mensagem:</label></th>
+                    <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td><!--espaço de 5 linhas e 40 colunas-->
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button>Enviar</button></td> 
+                </tr>
+            </table>
+        </form>
+        <a href="#l5">Topo</a>
+    </div>
+    <div class="footer">
+        <a href="https://www.linkedin.com/in/alessa-santos/" target=_blank>
+            <img src="imagens/linkedin.png" alt="LinkedIn" title="https://www.linkedin.com/in/alessa-santos/" style="width:30px;">
+        </a>
+      </div>
+</body>
+</html>
